@@ -487,3 +487,25 @@ thead {
       font-size: 14px;
     }
   }
+
+/* Dark theme styles */
+.dark-theme {
+  background: #181818 !important;
+  color: #e0e0e0 !important;
+}
+.dark-theme a { color: #8ab4f8; }
+.dark-theme a:visited { color: #bb86fc; }
+.dark-theme h1, .dark-theme h2, .dark-theme h3, .dark-theme h4, .dark-theme h5, .dark-theme h6 {
+  color: #e0e0e0;
+}
+.dark-theme .section,
+.dark-theme .dropdown-content,
+.dark-theme .dropdown-button {
+  background: #222 !important;
+  color: #e0e0e0 !important;
+}
+.dark-theme th,
+.dark-theme td {
+  background: #222 !important;
+  color: #e0e0e0 !important;
+}
